@@ -1,0 +1,56 @@
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:250%;
+  }
+
+h1{
+    color: #ff8800;
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+}
+
+h4{
+    color: #e96901;
+    text-align: center;
+}
+
+p{
+    border-radius: 6px;
+    border-width: 3px;
+    border: #ff8800, solid; 
+    padding: 10px;
+    background-color: #333330;
+    color: rgb(236, 232, 227);
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 40%;
+  }
+
+.boton {
+    color: #ff8800;
+    background-color: #333330;
+    font-size: larger;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.boton:hover {
+    color:#ffa742;
+    background-color: #575753;
+}
+
+body{
+    background-color: #181313;
+}
