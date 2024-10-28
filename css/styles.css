@@ -11,6 +11,10 @@ h1{
     font-size: xx-large;
 }
 
+a{
+    text-decoration: none;
+}
+
 h4{
     color: #ffffff;
     text-align: center;
