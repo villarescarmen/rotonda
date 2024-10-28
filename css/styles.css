@@ -9,6 +9,7 @@ h1{
     color: #ffffff;
     text-align: center;
     font-size: xx-large;
+    animation: parpadeo 2s infinite;
 }
 
 a{
@@ -19,6 +20,15 @@ h4{
     color: #ffffff;
     text-align: center;
     font-size: xx-large;
+}
+
+@keyframes parpadeo {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 p{
