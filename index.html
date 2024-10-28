@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba 05</title>
-
+    <title>JUEGA O MUERE</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-
 </head>
-<body>
-    <section>
-        <div>
-            <h1 class="creepster-regular">JUEGA O MUERE </h1>
-            <h4>Título Provisional</h4>
+
+<body background="img/BACK-IMG.jpg">
+    <div class="container">
+        <div class="content">
+            <h1 class="creepster-regular">JUEGA O MUERE</h1>
+            <p>¡Jugaré, no me rendiré!</p>
+    
+            <button id="playVideoButton" class="boton">CONTINUAR (Abrir Video)</button>
         </div>
-    </section>
 
-    <section>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus laboriosam repellendus error ullam officia consectetur beatae doloremque officiis quasi porro, ducimus blanditiis corrupti incidunt rem, optio suscipit molestiae. Molestias, ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        </p>
+        <div id="videoContainer" class="hidden">
+            <video id="video" width="640" height="360" controls>
+                <source src="video/halloween.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+  
+        <div id="imageButtonContainer" >
+            <button id="showImageButton" class="boton">PISTA (Mostrar Imagen)</button>
+        </div>
 
-        <img src="img/luna-llena-wikipedia.jpg" alt="">
+        
+        <div id="imageContainer" class="hidden">
+            <img id="image" src="img/AEROPUERTO.jpg" alt="Imagen">
+            <button class="boton"  id="closeImageButton">VOLVER A INICIO</button>
+        </div>
 
-    <!---  <button class="boton">PLACEHOLDER</button> --->
+        <div id="imageContainer">
+            <a href="https://maps.app.goo.gl/W3wUyFxGUSYJZrx37">
+            <button class="boton"  id="closeImageButton">UBICACIÓN</button>
+        </div>
 
-       <input class="boton" type="button" value="VER DESTINO" onclick="window.open('img/AEROPUERTO.jpg');">
-    </section>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
-<link rel="stylesheet" href="css/styles.css">
 </html>
