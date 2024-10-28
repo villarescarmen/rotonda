@@ -14,9 +14,10 @@
     <div class="container">
         <div class="content">
             <h1 class="creepster-regular">JUEGA O MUERE</h1>
-            <p>¡Jugaré, no me rendiré!</p>
+            <h4>¡Jugaré, no me rendiré!</h4>
+            <p>Dale a continuar para saber tu próximo destino. Si no sabes dónde es, al terminar el  vídeo hay más pistas...</p>
     
-            <button id="playVideoButton" class="boton">CONTINUAR (Abrir Video)</button>
+            <button class="boton" id="playVideoButton">CONTINUAR</button>
         </div>
 
         <div id="videoContainer" class="hidden">
@@ -26,19 +27,16 @@
             </video>
         </div>
   
-        <div id="imageButtonContainer" >
-            <button id="showImageButton" class="boton">PISTA (Mostrar Imagen)</button>
+        <div id="imageButtonContainer" class="hidden">
+            <button id="showImageButton" class="boton">PISTA</button>
         </div>
 
-        
         <div id="imageContainer" class="hidden">
-            <img id="image" src="img/AEROPUERTO.jpg" alt="Imagen">
-            <button class="boton"  id="closeImageButton">VOLVER A INICIO</button>
-        </div>
-
-        <div id="imageContainer">
+            <img id="image" src="img/ROTONDA-DIA.jpg" alt="Imagen">
+            <!-- Enlace que lleva a Google Maps -->
             <a href="https://maps.app.goo.gl/W3wUyFxGUSYJZrx37">
-            <button class="boton"  id="closeImageButton">UBICACIÓN</button>
+            <button class="boton">UBICACIÓN</button></a>
+
         </div>
 
     </div>
